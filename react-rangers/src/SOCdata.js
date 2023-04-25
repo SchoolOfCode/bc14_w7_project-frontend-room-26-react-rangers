@@ -22,4 +22,5 @@ let subject3 = {
     question: "what is css?",
     answer: "dunno",
 };
+
 export let SOCdata = [subject1, subject2, subject3]
