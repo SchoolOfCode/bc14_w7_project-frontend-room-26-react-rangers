@@ -30,7 +30,7 @@ let subject3 = {
 };
 let subject4 = {
     id: 3,
-    title: "Unreal",
+    title: "React",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
@@ -39,5 +39,48 @@ let subject4 = {
     note: []
 };
 
-export let SOCdata = [subject1, subject2, subject3, subject4]
+let subject5 = {
+    id: 4,
+    title: "Objects",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
+    questionprompt: "",
+    question: "what is css?",
+    answer: "dunno",
+    note: []
+};
 
+let subject6 = {
+    id: 5,
+    title: "Booleans",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
+    questionprompt: "",
+    question: "what is css?",
+    answer: "dunno",
+    note: []
+};
+
+let subject7 = {
+    id: 6,
+    title: "Arrays",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
+    questionprompt: "",
+    question: "what is css?",
+    answer: "dunno",
+    note: []
+};
+
+let subject8 = {
+    id: 7,
+    title: "Array Methods",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
+    questionprompt: "",
+    question: "what is css?",
+    answer: "dunno",
+    note: []
+};
+
+export let SOCdata = [subject1, subject2, subject3, subject4, subject5, subject6, subject7, subject8]

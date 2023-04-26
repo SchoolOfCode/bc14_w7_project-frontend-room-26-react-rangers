@@ -20,9 +20,11 @@ function App() {
     };
 
 function handleUpdateNotes(text) {
+
 let newData = [...SOCdataState];
 newData[activeButton].note.push(text);
 setSOCdata(newData)
+
 }
 
   return (

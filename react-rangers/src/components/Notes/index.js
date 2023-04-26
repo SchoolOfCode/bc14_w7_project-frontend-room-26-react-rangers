@@ -7,13 +7,13 @@
 import React, { useState } from 'react';
 
 function Notepad(props) {
+    
   let { functionality } = props;
   const [text, setText] = useState('');
-
+    console.log(functionality)
   const handleNew = () => {
     functionality(text)
-    setText('');
-
+    setText('')
   };
 
 
