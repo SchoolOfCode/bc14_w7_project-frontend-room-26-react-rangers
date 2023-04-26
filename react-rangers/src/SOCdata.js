@@ -1,7 +1,7 @@
 let subject1 = {
     id: 0,
     title: "CSS - Cascading Style Sheets",
-    content: "CSS, or Cascading Style Sheets, is a language used for styling and formatting web documents. It allows developers to separate the content of a webpage from its presentation, making it easier to maintain and modify the site's appearance. CSS works by selecting HTML elements and applying specific styles to them. These styles can include colors, fonts, margins, borders, and more. CSS can be written inline within the HTML file, in a separate file that's linked to the HTML file, or within the head section of an HTML file. CSS uses a cascading model, where styles applied to a parent element will affect all of its child elements unless they are overridden. Specificity is used to determine which styles take precedence when there are conflicting styles applied to an element. CSS also includes a variety of selectors that allow developers to target specific elements on a page. Some common selectors include element selectors, class selectors, ID selectors, and pseudo-selectors. In addition to basic styling, CSS also includes advanced features like responsive design, which allows developers to create webpages that adjust to different screen sizes, and animations, which add movement and interactivity to a webpage. Frameworks like Bootstrap and Foundation provide pre-written CSS and HTML code for developers to use, making it easier to create responsive and attractive websites. However, it's important to have a strong understanding of CSS in order to customize these frameworks and create unique designs. CSS is constantly evolving, with new features and updates being added regularly. Keeping up with the latest changes and best practices is important for any web developer looking to create modern, responsive, and visually appealing websites.",
+    content: "CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files. To use an external stylesheet, you must link to it in the HTML file. To link to an external style sheet, use the link element inside the head element. The link element must have a rel attribute with the value stylesheet, and an href attribute that specifies the path to the CSS file. The text/css is the type of the document. The rel attribute specifies the relationship between the HTML page and the file it is linked to. The value stylesheet specifies that the HTML page is a stylesheet. The href attribute specifies the path to the CSS file. The path can be absolute or relative. The path is relative to the HTML file. The path can also be a URL. The type attribute specifies the type of the document. The value text/css specifies that the document is a CSS file. The link element is used to link to external resources. The link element can be used to link to external style sheets, or to external scripts, or to external RSS feeds, or to any kind of external document. The link element is an empty element. It contains attributes only.", 
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, {url:"https://www.w3schools.com/css/css_intro.asp", title: "w3schools2"}],
     questionprompt: "",
     question: "what is css?",
@@ -11,8 +11,8 @@ let subject1 = {
 let subject2 = {
     id: 1,
     title: "Functions",
-    content: "In JavaScript, a function is a block of code that performs a specific task, which can be executed whenever it is called (invoked). Functions in JavaScript are used to modularize code, improve code reusability, and help in organizing code into logical units."
-    links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
+    content: "In JavaScript, a function is a block of code that performs a specific task, which can be executed whenever it is called (invoked). Functions in JavaScript are used to modularize code, improve code reusability, and help in organizing code into logical units.",
+    links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, {url: "https://www.w3schools.com/css/css_intro.asp"}],
     questionprompt: "",
     question: "what is css?",
     answer: "dunno",
@@ -23,7 +23,7 @@ let subject3 = {
     title: "Variables",
     content: "",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
-    questionprompt: "A variable is a named container that stores a value, which can be of any data type such as numbers, strings, booleans, objects, or functions. Variables in JavaScript are declared using the var, let, or const keywords. Here is an example of a simple JavaScript variable declaration using the var keyword"
+    questionprompt: "A variable is a named container that stores a value, which can be of any data type such as numbers, strings, booleans, objects, or functions. Variables in JavaScript are declared using the var, let, or const keywords. Here is an example of a simple JavaScript variable declaration using the var keyword.",
     question: "what is css?",
     answer: "dunno",
     note: []
@@ -53,9 +53,9 @@ let subject5 = {
 let subject6 = {
     id: 5,
     title: "Booleans",
-    content: "",
+    content: "The variables isTrue and isFalse are Boolean values in JavaScript. The true and false keywords represent the Boolean data type, which can have two possible values: true or false. Booleans are often used in conditional statements and logical expressions to control the flow of a program. Overall, Booleans are a simple but powerful data type in both JavaScript and React, used to represent true/false values and control program flow.",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
-    questionprompt: "The variables isTrue and isFalse are Boolean values in JavaScript. The true and false keywords represent the Boolean data type, which can have two possible values: true or false. Booleans are often used in conditional statements and logical expressions to control the flow of a program. Overall, Booleans are a simple but powerful data type in both JavaScript and React, used to represent true/false values and control program flow.",
+    questionprompt: "",
     question: "what is css?",
     answer: "dunno",
     note: []
