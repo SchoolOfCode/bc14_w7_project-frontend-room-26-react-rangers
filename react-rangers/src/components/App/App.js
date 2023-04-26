@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import LessonCard from '../LessonCard';
+import Notepad from '../Notes';
 
 let testObject = {
   title: "CSS - Cascading Style Sheets",
@@ -30,9 +31,12 @@ function App() {
   }, []);
 
   return (
+
     <div className="App">
        
       <LessonCard props={testObject}/>
+
+      <Notepad />
       
       <div id="motivational-quotes">
           {quote && <h1>Motivational Quote of the Day</h1>}
@@ -44,6 +48,7 @@ function App() {
           <button onClick={getMotivationalQuote}>New Quote</button>
         </div>
     </div>
+    </>
   );
 }
 
