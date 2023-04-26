@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import LessonCard from '../LessonCard';
+
 import NavBar from '../NavBar';
 import { SOCdata } from '../../SOCdata';
 import MotivationalApi from '../MotivationalApi';
@@ -15,19 +16,22 @@ function App() {
     const component = SOCdataState.find(item => item.id === activeButton);
     return (
       <LessonCard props={component} />
-    );
-  };
+    );  
+    };
 
 // let newData = [...SOCdataState];
 // newData[activeButton].notes = text 
 // setSOCdata(newData)
  
   return (
+
     <div className="App">
+
       <NavBar functionality={handleClick} />
         {renderComponent()}
       <MotivationalApi />
     </div>
+    </>
   );
 }
 
