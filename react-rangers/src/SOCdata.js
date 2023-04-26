@@ -24,3 +24,5 @@ let subject3 = {
 };
 
 export let SOCdata = [subject1, subject2, subject3]
+
+let ✎ = []
