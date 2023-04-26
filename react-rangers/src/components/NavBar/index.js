@@ -15,7 +15,16 @@ export default function NavBar(props) {
     const { functionality } = props;
     return  (
         <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
-            <List component="nav" aria-label="main mailbox folders">
+            <List component="nav" aria-label="main mailbox folders"
+            sx={{
+        width: '100%',
+        maxWidth: 360,
+        bgcolor: 'background.paper',
+        position: 'relative',
+        overflow: 'auto',
+        maxHeight: 300,
+        '& ul': { padding: 0 },
+      }}>
                 {SOCdata.map(item => (
                     <ListItemButton key={item.id} onClick={() => {functionality(item.id)}}>
                         <ListItemIcon>

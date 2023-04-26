@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar functionality={handleClick}/>
+      <NavBar functionality={handleClick} />
         <div id="motivational-quotes">
           {quote && <h1>Motivational Quote of the Day</h1>}
           {quote ? (
