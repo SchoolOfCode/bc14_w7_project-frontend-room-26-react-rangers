@@ -26,6 +26,7 @@ function Notepad() {
   return (
     <div className="notepad">
       <div className="app">
+      <img className = "logo" src="https://i.imgur.com/0KftkFj.jpeg" alt="sticky note" />
       <h2>Sticky Note</h2>
         <textarea value={text} onChange={handleTextAreaChange} />
         <div className="toolbar">
