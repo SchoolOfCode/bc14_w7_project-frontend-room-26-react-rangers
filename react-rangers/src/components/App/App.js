@@ -6,7 +6,6 @@ import { SOCdata } from '../../SOCdata';
 
 function App() {
   const [quote, setQuote] = useState(null);
-
   const [activeButton, setActiveButton] = useState(1);
   
   function handleClick(id) {
