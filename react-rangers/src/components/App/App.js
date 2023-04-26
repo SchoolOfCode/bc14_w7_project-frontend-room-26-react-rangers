@@ -36,7 +36,6 @@ setSOCdata(newData)
  
       <Notepad functionality={handleUpdateNotes}/>
       <MotivationalApi />
-      <Notepad />
     </div>
   );
 }
