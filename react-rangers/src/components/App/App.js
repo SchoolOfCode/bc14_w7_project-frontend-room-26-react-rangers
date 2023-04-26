@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import LessonCard from '../LessonCard';
+import Notepad from '../Notes';
 
 let testObject = {
   title: "CSS - Cascading Style Sheets",
@@ -41,6 +42,7 @@ function App() {
       
     <div className="App">
       <LessonCard props={testObject}/>
+      <Notepad />
     </div>
     </>
   );

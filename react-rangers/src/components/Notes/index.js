@@ -4,15 +4,33 @@
 //Input field would contain the current value of said notes
 //Pressing the save button changes the value to setState of the note.
 //Pressing the delete button sets the value to an empty string.
+import React, { useState } from 'react';
 
-import React from 'react';
+function Notepad() {
+ 
+  const [text, setText] = useState('');
 
-function Notepad(props) {
-  const { text, handleInputChange } = props;
+  const handleNew = () => {
+    setText('');
+  };
+
+  const handleSave = () => {
+    // Handle save functionality here
+  };
+
+  const handleTextAreaChange = (event) => {
+    setText(event.target.value);
+  };
 
   return (
     <div className="notepad">
-      <textarea value={text} onChange={handleInputChange} />
+      <div className="app">
+        <div className="toolbar">
+          <button className="btn" onClick={handleNew}>New</button>
+          <button className="btn" onClick={handleSave}>Save</button>
+        </div>
+        <textarea value={text} onChange={handleTextAreaChange} />
+      </div>
     </div>
   );
 }
