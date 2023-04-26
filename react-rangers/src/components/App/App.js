@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import LessonCard from '../LessonCard';
+import Notepad from '../Notes';
 
 import NavBar from '../NavBar';
 import { SOCdata } from '../../SOCdata';
@@ -30,6 +31,7 @@ function App() {
       <NavBar functionality={handleClick} />
         {renderComponent()}
       <MotivationalApi />
+      <Notepad />
     </div>
  
   );
