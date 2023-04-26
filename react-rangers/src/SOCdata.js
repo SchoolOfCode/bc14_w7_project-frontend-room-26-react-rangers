@@ -21,9 +21,9 @@ let subject2 = {
 let subject3 = {
     id: 2,
     title: "Variables",
-    content: "",
+    content: "A variable is a named container that stores a value, which can be of any data type such as numbers, strings, booleans, objects, or functions. Variables in JavaScript are declared using the var, let, or const keywords. Here is an example of a simple JavaScript variable declaration using the var keyword.",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
-    questionprompt: "A variable is a named container that stores a value, which can be of any data type such as numbers, strings, booleans, objects, or functions. Variables in JavaScript are declared using the var, let, or const keywords. Here is an example of a simple JavaScript variable declaration using the var keyword.",
+    questionprompt: "",
     question: "what is css?",
     answer: "dunno",
     note: []
@@ -31,9 +31,9 @@ let subject3 = {
 let subject4 = {
     id: 3,
     title: "React",
-    content: "",
+    content: "React is a JavaScript library used for building user interfaces (UIs) in web applications. It is an open-source library developed by Facebook and has become one of the most popular libraries for building modern web applications. At its core, React uses a component-based architecture, where each component represents a part of the UI that can be reused across the application. React components are typically written in JSX, which is a syntax extension for JavaScript that allows developers to write HTML-like code in their JavaScript files. React components can be divided into two main types: class components and functional components. Class components are defined using a class keyword and have access to lifecycle methods, while functional components are defined using a function and are simpler and easier to understand.React components can also have state, which is a JavaScript object that stores data that can change over time. Changes in state trigger the re-rendering of the component, updating the UI to reflect the new state. To use React in a web application, developers typically use a build tool such as Webpack or Create React App to compile their code and generate a production-ready build. The resulting build can then be deployed to a web server or a cloud-based service provider such as AWS or Google Cloud Platform.",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
-    questionprompt: "React is a JavaScript library used for building user interfaces (UIs) in web applications. It is an open-source library developed by Facebook and has become one of the most popular libraries for building modern web applications. At its core, React uses a component-based architecture, where each component represents a part of the UI that can be reused across the application. React components are typically written in JSX, which is a syntax extension for JavaScript that allows developers to write HTML-like code in their JavaScript files. React components can be divided into two main types: class components and functional components. Class components are defined using a class keyword and have access to lifecycle methods, while functional components are defined using a function and are simpler and easier to understand.React components can also have state, which is a JavaScript object that stores data that can change over time. Changes in state trigger the re-rendering of the component, updating the UI to reflect the new state. To use React in a web application, developers typically use a build tool such as Webpack or Create React App to compile their code and generate a production-ready build. The resulting build can then be deployed to a web server or a cloud-based service provider such as AWS or Google Cloud Platform.",
+    questionprompt: "",
     question: "what is css?",
     answer: "dunno",
     note: []
