@@ -6,17 +6,16 @@
 //Pressing the delete button sets the value to an empty string.
 import React, { useState } from 'react';
 
-function Notepad() {
- 
+function Notepad(props) {
+  let { functionality } = props;
   const [text, setText] = useState('');
 
   const handleNew = () => {
+    functionality(text)
     setText('');
+
   };
 
-  const handleSave = () => {
-    // Handle save functionality here
-  };
 
   const handleTextAreaChange = (event) => {
     setText(event.target.value);
@@ -26,8 +25,7 @@ function Notepad() {
     <div className="notepad">
       <div className="app">
         <div className="toolbar">
-          <button className="btn" onClick={handleNew}>New</button>
-          <button className="btn" onClick={handleSave}>Save</button>
+          <button className="btn" onClick={handleNew}>Update Notes</button>
         </div>
         <textarea value={text} onChange={handleTextAreaChange} />
       </div>

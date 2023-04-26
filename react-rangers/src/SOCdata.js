@@ -6,7 +6,7 @@ let subject1 = {
     questionprompt: "",
     question: "what is css?",
     answer: "dunno",
-    note: "placeholder note"
+    note: []
   };
 let subject2 = {
     id: 1,
@@ -16,6 +16,7 @@ let subject2 = {
     questionprompt: "",
     question: "what is css?",
     answer: "dunno",
+    note: []
 };
 let subject3 = {
     id: 2,
@@ -25,6 +26,7 @@ let subject3 = {
     questionprompt: "",
     question: "what is css?",
     answer: "dunno",
+    note: []
 };
 let subject4 = {
     id: 3,
@@ -34,6 +36,7 @@ let subject4 = {
     questionprompt: "",
     question: "what is css?",
     answer: "dunno",
+    note: []
 };
 
 export let SOCdata = [subject1, subject2, subject3, subject4]

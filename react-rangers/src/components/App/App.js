@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import LessonCard from '../LessonCard';
-
+import Notepad from '../Notes';
 import NavBar from '../NavBar';
 import { SOCdata } from '../../SOCdata';
 import MotivationalApi from '../MotivationalApi';
@@ -19,19 +19,22 @@ function App() {
     );  
     };
 
-// let newData = [...SOCdataState];
-// newData[activeButton].notes = text 
-// setSOCdata(newData)
- 
+function handleUpdateNotes(text) {
+let newData = [...SOCdataState];
+newData[activeButton].note.push(text);
+setSOCdata(newData)
+}
+
   return (
 
     <div className="App">
 
       <NavBar functionality={handleClick} />
         {renderComponent()}
+ 
+      <Notepad functionality={handleUpdateNotes}/>
       <MotivationalApi />
     </div>
-    </>
   );
 }
 
