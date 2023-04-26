@@ -5,6 +5,7 @@
 //Pressing the save button changes the value to setState of the note.
 //Pressing the delete button sets the value to an empty string.
 import React, { useState } from 'react';
+import './Notes.css';
 
 function Notepad(props) {
     
@@ -24,10 +25,12 @@ function Notepad(props) {
   return (
     <div className="notepad">
       <div className="app">
+      <img className = "logo" src="https://i.imgur.com/0KftkFj.jpeg" alt="sticky note" />
+      <h2>Sticky Note</h2>
+        <textarea value={text} onChange={handleTextAreaChange} />
         <div className="toolbar">
           <button className="btn" onClick={handleNew}>Update Notes</button>
         </div>
-        <textarea value={text} onChange={handleTextAreaChange} />
       </div>
     </div>
   );

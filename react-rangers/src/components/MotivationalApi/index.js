@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import React from 'react';
+import './MotivationalApi.css';
 
 
 function QuoteDisplay() {
@@ -22,7 +23,7 @@ function QuoteDisplay() {
   }
 
   return (
-      <div id="motivational-quotes">
+      <div className="motivational-quotes">
           <h1>Motivational Quote of the Day</h1>
           {quote ? (
             <p>{quote.text} - {quote.author}</p>
