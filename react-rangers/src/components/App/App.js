@@ -30,15 +30,16 @@ function App() {
   }, []);
 
   return (
-    <div>
-      {quote && <h1>Motivational Quote of the Day</h1>}
-      {quote ? (
-        <p>{quote.text} - {quote.author}</p>
-      ) : (
-        <p>Loading...</p>
-      )}
-      <button onClick={getMotivationalQuote}>New Quote</button>
     <div className="App">
+        <div id="motivational-quotes">
+          {quote && <h1>Motivational Quote of the Day</h1>}
+          {quote ? (
+            <p>{quote.text} - {quote.author}</p>
+          ) : (
+            <p>Loading...</p>
+          )}
+          <button onClick={getMotivationalQuote}>New Quote</button>
+        </div>
       <LessonCard props={testObject}/>
     </div>
   );
