@@ -17,7 +17,7 @@ export default function LessonCard ({props}) {
     {array.map(item => ( <a href={item.url}>{item.title}</a>) )}
 
     <h2>Notes</h2>
-    <p>{props.note}</p>
+    {props.note.map(item => ( <p>{item}</p>))}
     
     </div>
      
