@@ -11,7 +11,7 @@ let subject1 = {
 let subject2 = {
     id: 1,
     title: "Functions",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    content: "In JavaScript, a function is a block of code that performs a specific task, which can be executed whenever it is called (invoked). Functions in JavaScript are used to modularize code, improve code reusability, and help in organizing code into logical units."
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
     question: "what is css?",
@@ -21,9 +21,9 @@ let subject2 = {
 let subject3 = {
     id: 2,
     title: "Variables",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    content: "",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
-    questionprompt: "",
+    questionprompt: "A variable is a named container that stores a value, which can be of any data type such as numbers, strings, booleans, objects, or functions. Variables in JavaScript are declared using the var, let, or const keywords. Here is an example of a simple JavaScript variable declaration using the var keyword"
     question: "what is css?",
     answer: "dunno",
     note: []
@@ -31,9 +31,9 @@ let subject3 = {
 let subject4 = {
     id: 3,
     title: "React",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    content: "",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
-    questionprompt: "",
+    questionprompt: "React is a JavaScript library used for building user interfaces (UIs) in web applications. It is an open-source library developed by Facebook and has become one of the most popular libraries for building modern web applications. At its core, React uses a component-based architecture, where each component represents a part of the UI that can be reused across the application. React components are typically written in JSX, which is a syntax extension for JavaScript that allows developers to write HTML-like code in their JavaScript files. React components can be divided into two main types: class components and functional components. Class components are defined using a class keyword and have access to lifecycle methods, while functional components are defined using a function and are simpler and easier to understand.React components can also have state, which is a JavaScript object that stores data that can change over time. Changes in state trigger the re-rendering of the component, updating the UI to reflect the new state. To use React in a web application, developers typically use a build tool such as Webpack or Create React App to compile their code and generate a production-ready build. The resulting build can then be deployed to a web server or a cloud-based service provider such as AWS or Google Cloud Platform.",
     question: "what is css?",
     answer: "dunno",
     note: []
@@ -42,7 +42,7 @@ let subject4 = {
 let subject5 = {
     id: 4,
     title: "Objects",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    content: "In JavaScript, an object is a collection of key-value pairs where the values can be of any data type, including other objects, arrays, and functions. Objects are used to represent real-world entities or concepts and can be used to organize and manipulate data in a program. In React, objects are often used to represent the state and props of a component. The state object contains data that can change over time and triggers re-rendering of the component when the state changes, while the props object contains data that is passed down from a parent component to a child component.",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
     question: "what is css?",
@@ -53,9 +53,9 @@ let subject5 = {
 let subject6 = {
     id: 5,
     title: "Booleans",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    content: "",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
-    questionprompt: "",
+    questionprompt: "The variables isTrue and isFalse are Boolean values in JavaScript. The true and false keywords represent the Boolean data type, which can have two possible values: true or false. Booleans are often used in conditional statements and logical expressions to control the flow of a program. Overall, Booleans are a simple but powerful data type in both JavaScript and React, used to represent true/false values and control program flow.",
     question: "what is css?",
     answer: "dunno",
     note: []
@@ -64,7 +64,7 @@ let subject6 = {
 let subject7 = {
     id: 6,
     title: "Arrays",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    content: "An array is a collection of values that can be of any data type, including other arrays, objects, and functions. Arrays are used to store and manipulate lists of data in a program and are one of the most commonly used data structures in JavaScript.",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
     question: "what is css?",
@@ -75,7 +75,7 @@ let subject7 = {
 let subject8 = {
     id: 7,
     title: "Array Methods",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    content: "JavaScript arrays have many built-in methods that can be used to manipulate the data stored in an array. Some of the most commonly used array methods include push(), pop(), shift(), unshift(), slice(), splice(), and concat().",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
     question: "what is css?",
