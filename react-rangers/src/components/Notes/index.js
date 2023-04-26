@@ -5,6 +5,7 @@
 //Pressing the save button changes the value to setState of the note.
 //Pressing the delete button sets the value to an empty string.
 import React, { useState } from 'react';
+import './Notes.css';
 
 function Notepad() {
  

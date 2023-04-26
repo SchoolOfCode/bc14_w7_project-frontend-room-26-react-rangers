@@ -1,0 +1,16 @@
+
+.notepad {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+   
+
+
+.notepad {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: yellow;
+    color: yellow
+}
