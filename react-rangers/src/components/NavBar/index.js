@@ -26,7 +26,7 @@ export default function NavBar(props) {
     setOpen2(!open2);
   };
     return  (
-        <Box className="navBar" sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+        <Box className="navBar" sx={{ width: '100%', maxWidth: 360, bgcolor: '#F3FDF3' }}>
             <List component="nav" aria-label="main mailbox folders"
             sx={{
         width: '100%',
