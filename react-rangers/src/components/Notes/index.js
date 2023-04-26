@@ -26,11 +26,12 @@ function Notepad() {
   return (
     <div className="notepad">
       <div className="app">
+      <h2>Sticky Note</h2>
+        <textarea value={text} onChange={handleTextAreaChange} />
         <div className="toolbar">
           <button className="btn" onClick={handleNew}>New</button>
           <button className="btn" onClick={handleSave}>Save</button>
         </div>
-        <textarea value={text} onChange={handleTextAreaChange} />
       </div>
     </div>
   );

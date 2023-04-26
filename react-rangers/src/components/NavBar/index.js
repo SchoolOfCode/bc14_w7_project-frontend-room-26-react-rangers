@@ -11,7 +11,7 @@ import { SOCdata } from '../../SOCdata';
 export default function NavBar(props) {
     const { functionality } = props;
     return  (
-        <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+        <Box className="navBar" sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
             <List component="nav" aria-label="main mailbox folders"
             sx={{
         width: '100%',
