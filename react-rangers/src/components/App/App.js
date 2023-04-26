@@ -14,7 +14,7 @@ let testObject = {
 
 function App() {
   const [quote, setQuote] = useState(null);
-
+  // return to motivational Quotes and refactor to use the 
   async function getMotivationalQuote() {
     try {
       const response = await fetch('https://type.fit/api/quotes');
@@ -31,18 +31,22 @@ function App() {
   }, []);
 
   return (
-    <>
-      {quote && <h1>Motivational Quote of the Day</h1>}
-      {quote ? (
-        <p>{quote.text} - {quote.author}</p>
-      ) : (
-        <p>Loading...</p>
-      )}
-      <button onClick={getMotivationalQuote}>New Quote</button>
-      
+
     <div className="App">
+       
       <LessonCard props={testObject}/>
+
       <Notepad />
+      
+      <div id="motivational-quotes">
+          {quote && <h1>Motivational Quote of the Day</h1>}
+          {quote ? (
+            <p>{quote.text} - {quote.author}</p>
+          ) : (
+            <p>Loading...</p>
+          )}
+          <button onClick={getMotivationalQuote}>New Quote</button>
+        </div>
     </div>
     </>
   );
