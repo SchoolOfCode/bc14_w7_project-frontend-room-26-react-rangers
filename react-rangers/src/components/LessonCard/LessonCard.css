@@ -16,3 +16,16 @@ h1, p, a, h2 {
     text-align: center;
     margin: 5%;
 } */
+
+.comment-box {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+overflow: scroll;
+}
+
+.comment-box button {
+    width: 30px;
+    height: 30px;
+}
