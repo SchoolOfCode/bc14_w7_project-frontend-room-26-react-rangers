@@ -6,6 +6,7 @@ let subject1 = {
     questionprompt: "",
     question: "what is css?",
     answer: "dunno",
+    note: "placeholder note"
   };
 let subject2 = {
     id: 1,

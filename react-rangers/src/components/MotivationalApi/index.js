@@ -1,21 +1,35 @@
-
+import {useState, useEffect} from 'react';
 import React from 'react';
 
-function QuoteDisplay(props) {
-  const { quotes } = props;
+
+function QuoteDisplay() {
+  
+  useEffect(() => {
+    getMotivationalQuote();
+  }, []);
+  
+  const [quote, setQuote] = useState(null);
+
+  async function getMotivationalQuote() {
+    try {
+      const response = await fetch('https://type.fit/api/quotes');
+      const data = await response.json();
+      const randomQuote = data[Math.floor(Math.random() * data.length)];
+      setQuote(randomQuote);
+    } catch (error) {
+      console.error(error);
+    }
+  }
 
   return (
-    <div>
-      {/* render the quotes passed down from the parent component */}
-      {quotes ? (
-        quotes.map((quote, index) => (
-          <p key={index}>
-            {quote.text} - {quote.author}
-          </p>
-        ))
-      ) : (
-        <p>Loading...</p>
-      )}
+      <div id="motivational-quotes">
+          <h1>Motivational Quote of the Day</h1>
+          {quote ? (
+            <p>{quote.text} - {quote.author}</p>
+          ) : (
+            <p>Loading...</p>
+          )}
+          <button onClick={getMotivationalQuote}>New Quote</button>
     </div>
   );
 }
