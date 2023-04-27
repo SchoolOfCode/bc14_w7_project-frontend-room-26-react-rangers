@@ -31,7 +31,7 @@ export default function NavBar(props) {
             sx={{
         width: '100%',
         maxWidth: 360,
-        bgcolor: '#E1FBE1',
+        bgcolor: '#daf3fa',
         position: 'relative',
         overflow: 'auto',
         maxHeight: 500,
