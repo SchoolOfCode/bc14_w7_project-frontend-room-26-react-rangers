@@ -27,6 +27,7 @@ let subject3 = {
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
     question: "what is css?",
+    syntax: "let message = 'hello world!'",
     answer: "dunno",
     note: []
 };
@@ -37,6 +38,7 @@ let subject4 = {
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
     question: "what is css?",
+    syntax: "",
     answer: "dunno",
     note: []
 };
@@ -48,6 +50,7 @@ let subject5 = {
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
     question: "what is css?",
+    syntax: "let person = {name: 'John', age: 20}",
     answer: "dunno",
     note: []
 };
@@ -59,6 +62,7 @@ let subject6 = {
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
     question: "what is css?",
+    syntax: "let isSunny = true;",
     answer: "dunno",
     note: []
 };
@@ -70,6 +74,7 @@ let subject7 = {
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
     question: "what is css?",
+    syntax: "let numbers = [1, 2, 3, 4, 5];",
     answer: "dunno",
     note: []
 };
@@ -81,6 +86,7 @@ let subject8 = {
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
     question: "what is css?",
+    syntax: "let numbers = [1, 2, 3, 4, 5]; let doubledNumbers = numbers.map((num) => num * 2);",
     answer: "dunno",
     note: []
 };
