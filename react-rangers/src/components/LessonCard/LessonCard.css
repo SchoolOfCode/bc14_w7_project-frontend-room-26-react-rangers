@@ -11,7 +11,6 @@ display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: space-between;
-overflow: scroll;
 }
 
 .comment-box button {
@@ -22,4 +21,9 @@ overflow: scroll;
     height: 30px;
     border-radius: 40%;
     text-align: center;
+    color: black;
+}
+
+h1, h2, h3, p, a {
+    color: white;
 }

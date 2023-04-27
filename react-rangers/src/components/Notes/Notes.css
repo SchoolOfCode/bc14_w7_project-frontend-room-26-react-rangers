@@ -23,4 +23,7 @@ textarea {
     resize: none;
     width: 300px;
     height: 100px;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
 }

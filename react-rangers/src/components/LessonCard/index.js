@@ -11,10 +11,10 @@ export default function LessonCard ({props, childprops}) {
     <div className="lesson-card">
     <h1>{props.title}</h1>
     <p>{props.content}</p>
-    <h2>Useful Links</h2>
+    <h2 className= "link">Useful Links</h2>
     {array.map(item => ( <a href={item.url}>{item.title}</a>) )}
 
-    <h2>Syntax Examples</h2>
+    <h2 className = "syntax">Syntax Examples</h2>
     <p>{props.syntax}</p>
     <h2>Notes</h2>
     {props.note.map(item => 
