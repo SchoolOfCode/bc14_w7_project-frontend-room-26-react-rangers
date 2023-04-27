@@ -120,6 +120,12 @@ button {
 .navBar a:hover {
   background-color: #2A2A2A;
 }
+.navBar:-webkit-scrollbar {
+  display: none;
+}
+.lesson-card:-webkit-scrollbar {
+  display: none;
+}
 
 .Quiz {
   background-color: #647C90;

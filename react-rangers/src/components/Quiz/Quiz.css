@@ -4,12 +4,11 @@
     justify-content: center;
     align-items: center;
     background-color: #647C90;
-    border-radius: 10%;
-    box-shadow: 0 0.5rem 0.5rem rgba(202, 198, 198, 0.565);
+    border-radius: 5%;
     color: white
 }
 .Quiz .solution {
-    filter: blur(3px);
+    filter: blur(5px);
   }
 .Quiz .solution:hover {
     filter: blur(0px);
@@ -19,3 +18,6 @@
   .Quiz h1 {
     justify-self: flex-start;
   }
+ label {
+  font-size: small;
+ }

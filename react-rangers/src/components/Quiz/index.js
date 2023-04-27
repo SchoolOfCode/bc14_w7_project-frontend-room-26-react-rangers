@@ -8,6 +8,7 @@ function Quiz({props}) {
         <div className="Quiz">
             <h1>Test your knowledge</h1>
             <h3>{question}</h3>
+            <label>Hover to Reveal Solution</label>
             <div className="solution">
                 <p>{answer}</p>
             </div>

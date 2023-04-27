@@ -26,7 +26,7 @@ export default function NavBar(props) {
     setOpen2(!open2);
   };
     return  (
-        <Box className="navBar" sx={{ width: '100%', maxWidth: 360, bgcolor: '#FFFF', maxHeight: 500, color: "#7f7f7f", fontWeight: 600 }}>
+        <Box className="navBar" sx={{ width: '100%', maxWidth: 360, bgcolor: '#FFFF', maxHeight: 500, color: "#7f7f7f", fontWeight: 600, borderRadius: 2, }}>
 
             <List component="nav" aria-label="main mailbox folders"
             sx={{
@@ -37,6 +37,7 @@ export default function NavBar(props) {
         overflow: 'auto',
         maxHeight: 300,
         '& ul': { padding: 0 },
+        borderRadius: 2,
       }}>
    {/* call the collapsible menu item here 
      give the menu the name of week 1

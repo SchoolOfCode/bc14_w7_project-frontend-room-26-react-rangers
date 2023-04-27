@@ -29,7 +29,7 @@ function Notepad(props) {
     <div className="notepad">
       <div className="app">
 
-      <h2>Sticky Note</h2>
+      <h2>Add a Note</h2>
         <textarea value={text} onChange={handleTextAreaChange} />
         <div className="toolbar">
           <button className="btn" onClick={handleNew}>Update Notes</button>
