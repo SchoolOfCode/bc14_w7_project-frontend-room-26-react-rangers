@@ -5,8 +5,8 @@ let subject1 = {
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, {url:"https://www.w3schools.com/css/css_intro.asp", title: "w3schools2"}],
     syntax: ".class {property: value;}",
     questionprompt: "",
-    question: "what is css?",
-    answer: "dunno",
+    question: "Create a button element and style it red, with padding, and a border.",
+    answer: "html: <button>Click Me</button> css: button {background-color: red; padding: 10px; border: 2px solid black;}",
     note: []
   };
 let subject2 = {
@@ -15,9 +15,9 @@ let subject2 = {
     content: "In JavaScript, a function is a block of code that performs a specific task, which can be executed whenever it is called (invoked). Functions in JavaScript are used to modularize code, improve code reusability, and help in organizing code into logical units.",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, {url: "https://www.w3schools.com/css/css_intro.asp"}],
     questionprompt: "",
-    question: "what is css?",
+    question: "write a function to multiply a by b",
     syntax: "function myFunction() {console.log('hello world!')}",
-    answer: "dunno",
+    answer: "function multiply(a, b) {return a * b}",
     note: []
 };
 let subject3 = {
@@ -26,9 +26,8 @@ let subject3 = {
     content: "A variable is a named container that stores a value, which can be of any data type such as numbers, strings, booleans, objects, or functions. Variables in JavaScript are declared using the var, let, or const keywords. Here is an example of a simple JavaScript variable declaration using the var keyword.",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
-    question: "what is css?",
-    syntax: "let message = 'hello world!'",
-    answer: "dunno",
+    question: "write a variable to store the number one",
+    answer: "let myVariable = 1",
     note: []
 };
 let subject4 = {
@@ -38,7 +37,7 @@ let subject4 = {
     links: [{url: "https://www.w3schools.com/REACT/DEFAULT.ASP", title: "w3schools"}, "https://www.w3schools.com/REACT/DEFAULT.ASP",  ],
     questionprompt: "",
     question: "what is css?",
-    syntax: "<h1>Hello, World!</h1>",
+    syntax: "",
     answer: "dunno",
     note: []
 };
@@ -49,9 +48,8 @@ let subject5 = {
     content: "In JavaScript, an object is a collection of key-value pairs where the values can be of any data type, including other objects, arrays, and functions. Objects are used to represent real-world entities or concepts and can be used to organize and manipulate data in a program. In React, objects are often used to represent the state and props of a component. The state object contains data that can change over time and triggers re-rendering of the component when the state changes, while the props object contains data that is passed down from a parent component to a child component.",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
-    question: "what is css?",
-    syntax: "let person = {name: 'John', age: 20}",
-    answer: "dunno",
+    question: "Store a person's name, age, and favorite color in an object.",
+    answer: "let person = {name: 'John', age: 30, favoriteColor: 'blue'}",
     note: []
 };
 
@@ -64,6 +62,7 @@ let subject6 = {
     question: "what is css?",
     syntax: "let isSunny = true; or let isSunny = false;",
     answer: "dunno",
+
     note: []
 };
 
@@ -73,9 +72,8 @@ let subject7 = {
     content: "An array is a collection of values that can be of any data type, including other arrays, objects, and functions. Arrays are used to store and manipulate lists of data in a program and are one of the most commonly used data structures in JavaScript.",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
-    question: "what is css?",
-    syntax: "let numbers = [1, 2, 3, 4, 5];",
-    answer: "dunno",
+    question: "store 5 numbers in an array",
+    answer: "let myArray = [1, 2, 3, 4, 5]",
     note: []
 };
 
@@ -85,9 +83,8 @@ let subject8 = {
     content: "JavaScript arrays have many built-in methods that can be used to manipulate the data stored in an array. Some of the most commonly used array methods include push(), pop(), shift(), unshift(), slice(), splice(), and concat().",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
-    question: "what is css?",
-    syntax: "let numbers = [1, 2, 3, 4, 5]; let doubledNumbers = numbers.map((num) => num * 2);",
-    answer: "dunno",
+    question: "Add a number to the end of an array",
+    answer: "myArray.push(6)",
     note: []
 };
 

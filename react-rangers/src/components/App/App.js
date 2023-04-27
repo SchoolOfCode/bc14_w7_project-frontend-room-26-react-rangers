@@ -5,6 +5,7 @@ import Notepad from '../Notes';
 import NavBar from '../NavBar';
 import { SOCdata } from '../../SOCdata';
 import MotivationalApi from '../MotivationalApi';
+import Quiz from '../Quiz';
 
 function App() {
   const [SOCdataState, setSOCdata] = useState(SOCdata);
@@ -12,20 +13,28 @@ function App() {
   function handleClick(id) {
     setActiveButton(id);
   };
-  const renderComponent = () => {
-    const component = SOCdataState.find(item => item.id === activeButton);
-    return (
-      <LessonCard props={component} />
-    );  
-    };
 
 function handleUpdateNotes(text) {
 
-let newData = [...SOCdataState];
-newData[activeButton].note.push(text);
-setSOCdata(newData)
-
+  let newData = [...SOCdataState];
+  newData[activeButton].note.push(text);
+  setSOCdata(newData)
+  }
+  
+function deleteNote(id) {
+  let newData = [...SOCdataState];
+  newData[activeButton].note = newData[activeButton].note.filter(item => item.id !== id);
+  setSOCdata(newData);
 }
+
+  const renderComponent = () => {
+    const component = SOCdataState.find(item => item.id === activeButton);
+    return (
+      <LessonCard props={component} childprops={deleteNote} />
+    );  
+    };
+
+
 
   return (
 
@@ -36,6 +45,7 @@ setSOCdata(newData)
  
       <Notepad functionality={handleUpdateNotes}/>
       <MotivationalApi />
+      <Quiz props={SOCdataState[activeButton]}/>
     </div>
   );
 }

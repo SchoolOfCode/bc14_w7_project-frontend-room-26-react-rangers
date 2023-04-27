@@ -2,11 +2,9 @@
 import './LessonCard.css';
 
 import React from 'react';
-export default function LessonCard ({props}) {
+export default function LessonCard ({props, childprops}) {
 
     let array=props.links
-
-
 
   return  ( 
 
@@ -19,7 +17,15 @@ export default function LessonCard ({props}) {
     <h2>Syntax Examples</h2>
     <p>{props.syntax}</p>
     <h2>Notes</h2>
-    {props.note.map(item => ( <p>{item}</p>))}
+    {props.note.map(item => 
+    ( 
+      <div className="comment-box">
+      <p>{item.text}</p>
+      <button onClick={()=> {childprops(item.id)}}>🗑️</button>
+      </div>
+    )
+    
+    )}
     
     </div>
      
