@@ -34,7 +34,7 @@ export default function NavBar(props) {
         bgcolor: '#daf3fa',
         position: 'relative',
         overflow: 'auto',
-        maxHeight: 500,
+        maxHeight: 300,
         '& ul': { padding: 0 },
         borderRadius: 5,
       }}>
