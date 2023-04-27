@@ -8,7 +8,7 @@ background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-2
 background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
   color: #565656;
-  font-family: calibri;
+  font-family: 'Carlito';
   font-size: 1.3rem;
   
 }
