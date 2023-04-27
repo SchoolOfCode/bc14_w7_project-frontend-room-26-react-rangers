@@ -26,7 +26,7 @@ export default function NavBar(props) {
     setOpen2(!open2);
   };
     return  (
-        <Box className="navBar" sx={{ width: '100%', maxWidth: 360, bgcolor: '#E1FBE1', maxHeight: 500, }}>
+        <Box className="navBar" sx={{ width: '100%', maxWidth: 360, bgcolor: '#F3F' }}>
             <List component="nav" aria-label="main mailbox folders"
             sx={{
         width: '100%',
@@ -36,7 +36,6 @@ export default function NavBar(props) {
         overflow: 'auto',
         maxHeight: 300,
         '& ul': { padding: 0 },
-        borderRadius: 5,
       }}>
    {/* call the collapsible menu item here 
      give the menu the name of week 1
@@ -128,33 +127,6 @@ export default function NavBar(props) {
         <FolderIcon />
         </ListItemIcon>
         <ListItemText primary="Week 8" />
-        {open1 ? <ExpandLess /> : <ExpandMore />}
-      </ListItemButton>
-
-
-      <ListItemButton onClick={console.log('sorry nothing here yet')}>
-        <ListItemIcon>
-        <FolderIcon />
-        </ListItemIcon>
-        <ListItemText primary="Week 9" />
-        {open1 ? <ExpandLess /> : <ExpandMore />}
-      </ListItemButton>
-
-
-      <ListItemButton onClick={console.log('sorry nothing here yet')}>
-        <ListItemIcon>
-        <FolderIcon />
-        </ListItemIcon>
-        <ListItemText primary="Week 10" />
-        {open1 ? <ExpandLess /> : <ExpandMore />}
-      </ListItemButton>
-
-
-      <ListItemButton onClick={console.log('sorry nothing here yet')}>
-        <ListItemIcon>
-        <FolderIcon />
-        </ListItemIcon>
-        <ListItemText primary="Week 11" />
         {open1 ? <ExpandLess /> : <ExpandMore />}
       </ListItemButton>
 
