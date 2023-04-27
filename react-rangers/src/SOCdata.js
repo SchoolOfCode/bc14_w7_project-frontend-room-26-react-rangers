@@ -13,7 +13,7 @@ let subject2 = {
     id: 1,
     title: "Functions",
     content: "In JavaScript, a function is a block of code that performs a specific task, which can be executed whenever it is called (invoked). Functions in JavaScript are used to modularize code, improve code reusability, and help in organizing code into logical units.",
-    links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, {url: "https://www.w3schools.com/css/css_intro.asp"}],
+    links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, {url: "https://www.w3schools.com/css/css_intro.asp"}, {url: "https://www.w3schools.com/css/css_intro.asp"}, {url: "https://www.w3schools.com/css/css_intro.asp"}],
     questionprompt: "",
     question: "write a function to multiply a by b",
     syntax: "function myFunction() {console.log('hello world!')}",

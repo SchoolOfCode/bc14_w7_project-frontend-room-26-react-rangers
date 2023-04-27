@@ -31,10 +31,10 @@ export default function NavBar(props) {
             sx={{
         width: '100%',
         maxWidth: 360,
-        bgcolor: 'background.default',
+        bgcolor: '#daf3fa',
         position: 'relative',
         overflow: 'auto',
-        maxHeight: 500,
+        maxHeight: 300,
         '& ul': { padding: 0 },
       }}>
    {/* call the collapsible menu item here 
