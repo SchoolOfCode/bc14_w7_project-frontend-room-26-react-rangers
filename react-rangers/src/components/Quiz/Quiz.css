@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #FDF4F3;
+    background-color: #647C90;
     border-radius: 10%;
     box-shadow: 0 0.5rem 0.5rem rgba(202, 198, 198, 0.565);
+    color: white
 }
 .Quiz .solution {
     filter: blur(3px);

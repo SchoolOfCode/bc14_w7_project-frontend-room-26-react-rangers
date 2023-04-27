@@ -8,7 +8,9 @@ background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-2
 background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
   color: #565656;
-  font-family: ‘Montserrat’, sans-serif;
+  font-family: calibri;
+  font-size: 1.3rem;
+  
 }
 .Quiz {
   grid-row: 3/3;
@@ -18,8 +20,8 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
 button {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background-color: #D1E5F9;
-  color: #083440;
+  background-color: #255CED;
+  color: white;
   text-align: center;
   text-decoration: none;
   border-radius: 10px;
@@ -31,8 +33,8 @@ button {
   overflow: scroll;
   grid-row: 1/4;
   grid-column: 2/3;
-  background-color: #D1E5F9;
-  color: #083440;
+  background-color:  #003459;
+  color: white;
   padding: 2rem;
   border-radius: 1rem;
   /* border: 1px solid black; */
@@ -40,17 +42,19 @@ button {
   margin: 2rem;
   color: #565656;
   max-height: 100%;
+  
 }
 .lesson-card h1 {
   
   color: white;
   border-radius: 1rem;
-  background-color: #000046;
+  
  }
  .lesson-card p {
-  background-color: #FFFFFF;
-  color: #083440;
+  
+  color: white;
   border-radius: 1rem;
+  line-height: 1.8;
  }
 .motivational-quotes {
   grid-row: 3/4;
@@ -89,6 +93,7 @@ button {
   border-radius: 1rem;
   /* box-shadow: 0 0.5rem 0.5rem rgba(202, 198, 198, 0.565); */
   padding: 3rem;
+  color: white
 }
 .logo {
   width: 200px;
@@ -107,7 +112,7 @@ button {
 }
 .navBar a {
   display: block;
-  color: #000;
+  color: #565656;
   text-decoration: none;
   padding: 1rem;
   transition: background-color 0.2s ease-in-out;
@@ -115,6 +120,22 @@ button {
 .navBar a:hover {
   background-color: #2A2A2A;
 }
+
+.Quiz {
+  background-color: #647C90;
+  
+}
+
+.comment-box {
+  
+}
+
+.link, .syntax {
+  color: white;
+}
+
+
+
 
 
 
