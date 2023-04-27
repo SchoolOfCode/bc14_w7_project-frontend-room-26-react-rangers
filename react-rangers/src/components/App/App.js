@@ -33,9 +33,7 @@ function deleteNote(id) {
       <LessonCard props={component} childprops={deleteNote} />
     );  
     };
-
-
-
+    
   return (
 
     <div className="App">

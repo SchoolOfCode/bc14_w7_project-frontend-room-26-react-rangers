@@ -9,8 +9,8 @@ import Collapse from '@mui/material/Collapse';
 import { SOCdata } from '../../SOCdata';
 import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
-import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import FolderIcon from '@mui/icons-material/Folder';
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 
 export default function NavBar(props) {
     const { functionality } = props;
@@ -26,16 +26,16 @@ export default function NavBar(props) {
     setOpen2(!open2);
   };
     return  (
-        <Box className="navBar" sx={{ width: '100%', maxWidth: 360, bgcolor: '#FFFF', maxHeight: 500, color: "#7f7f7f", fontWeight: 600, borderRadius: 2, }}>
+        <Box className="navBar" sx={{ width: '100%', maxWidth: 360, bgcolor: '#647C90', maxHeight: 500, color: "white", fontWeight: 600, borderRadius: 2, }}>
 
             <List component="nav" aria-label="main mailbox folders"
             sx={{
         width: '100%',
         maxWidth: 360,
-        bgcolor: '#FFFF',
+        bgcolor: '#647C90',
         position: 'relative',
         overflow: 'auto',
-        maxHeight: 300,
+        maxHeight: 400,
         '& ul': { padding: 0 },
         borderRadius: 2,
       }}>
@@ -57,7 +57,7 @@ export default function NavBar(props) {
                     
                     <ListItemButton key={item.id} onClick={() => {functionality(item.id)}}>
                         <ListItemIcon>
-                            <InboxIcon />
+                            <InsertDriveFileIcon sx={{color:'white'}}/>
                         </ListItemIcon>
                         <ListItemText primary={item.title} />
                     </ListItemButton>
@@ -79,7 +79,7 @@ export default function NavBar(props) {
                     
                     <ListItemButton key={item.id} onClick={() => {functionality(item.id)}}>
                         <ListItemIcon>
-                            <InboxIcon />
+                        <InsertDriveFileIcon sx={{color:'white'}}/>
                         </ListItemIcon>
                         <ListItemText primary={item.title} />
                     </ListItemButton>
@@ -132,6 +132,23 @@ export default function NavBar(props) {
         {open1 ? <ExpandLess /> : <ExpandMore />}
       </ListItemButton>
 
+
+      <ListItemButton onClick={console.log('sorry nothing here yet')}>
+        <ListItemIcon>
+        <FolderIcon />
+        </ListItemIcon>
+        <ListItemText primary="Week 9" />
+        {open1 ? <ExpandLess /> : <ExpandMore />}
+      </ListItemButton>
+
+
+      <ListItemButton onClick={console.log('sorry nothing here yet')}>
+        <ListItemIcon>
+        <FolderIcon />
+        </ListItemIcon>
+        <ListItemText primary="Week 10" />
+        {open1 ? <ExpandLess /> : <ExpandMore />}
+      </ListItemButton>
 
 
 
