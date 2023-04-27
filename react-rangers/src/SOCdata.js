@@ -58,8 +58,10 @@ let subject6 = {
     content: "The variables isTrue and isFalse are Boolean values in JavaScript. The true and false keywords represent the Boolean data type, which can have two possible values: true or false. Booleans are often used in conditional statements and logical expressions to control the flow of a program. Overall, Booleans are a simple but powerful data type in both JavaScript and React, used to represent true/false values and control program flow.",
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
-    question: "Show how you can use the true and false keywords to create Boolean values.",
-    answer: "let isTrue = true; let isFalse = false;",
+    question: "what is css?",
+    syntax: "let isSunny = true; or let isSunny = false;",
+    answer: "dunno",
+
     note: []
 };
 
