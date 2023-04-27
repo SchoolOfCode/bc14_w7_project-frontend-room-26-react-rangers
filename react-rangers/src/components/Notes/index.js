@@ -6,14 +6,17 @@
 //Pressing the delete button sets the value to an empty string.
 import React, { useState } from 'react';
 import './Notes.css';
+import { v4 as uuidv4 } from 'uuid';
 
 function Notepad(props) {
     
   let { functionality } = props;
   const [text, setText] = useState('');
     console.log(functionality)
-  const handleNew = () => {
-    functionality(text)
+  
+    const handleNew = () => {
+    let newCommentObject = {id: uuidv4(), text: text}
+    functionality(newCommentObject)
     setText('')
   };
 
