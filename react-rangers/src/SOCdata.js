@@ -62,7 +62,7 @@ let subject6 = {
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, "https://www.w3schools.com/css/css_intro.asp"],
     questionprompt: "",
     question: "what is css?",
-    syntax: "let isSunny = true;",
+    syntax: "let isSunny = true; or let isSunny = false;",
     answer: "dunno",
     note: []
 };
