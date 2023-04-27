@@ -14,3 +14,9 @@
     background-color: yellow;
     color: yellow
 } */
+
+textarea {
+    resize: none;
+    width: 300px;
+    height: 200px;
+}

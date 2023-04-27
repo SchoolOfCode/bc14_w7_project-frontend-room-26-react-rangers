@@ -3,6 +3,7 @@ let subject1 = {
     title: "CSS - Cascading Style Sheets",
     content: "CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files. To use an external stylesheet, you must link to it in the HTML file. To link to an external style sheet, use the link element inside the head element. The link element must have a rel attribute with the value stylesheet, and an href attribute that specifies the path to the CSS file. The text/css is the type of the document. The rel attribute specifies the relationship between the HTML page and the file it is linked to. The value stylesheet specifies that the HTML page is a stylesheet. The href attribute specifies the path to the CSS file. The path can be absolute or relative. The path is relative to the HTML file. The path can also be a URL. The type attribute specifies the type of the document. The value text/css specifies that the document is a CSS file. The link element is used to link to external resources. The link element can be used to link to external style sheets, or to external scripts, or to external RSS feeds, or to any kind of external document. The link element is an empty element. It contains attributes only.", 
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, {url:"https://www.w3schools.com/css/css_intro.asp", title: "w3schools2"}],
+    syntax: ".class {property: value;}",
     questionprompt: "",
     question: "what is css?",
     answer: "dunno",
@@ -15,6 +16,7 @@ let subject2 = {
     links: [{url: "https://www.w3schools.com/css/", title: "w3schools"}, {url: "https://www.w3schools.com/css/css_intro.asp"}],
     questionprompt: "",
     question: "what is css?",
+    syntax: "function myFunction() {console.log('hello world!')}",
     answer: "dunno",
     note: []
 };

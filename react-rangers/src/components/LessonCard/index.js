@@ -16,6 +16,8 @@ export default function LessonCard ({props}) {
     <h2>Useful Links</h2>
     {array.map(item => ( <a href={item.url}>{item.title}</a>) )}
 
+    <h2>Syntax Examples</h2>
+    <p>{props.syntax}</p>
     <h2>Notes</h2>
     {props.note.map(item => ( <p>{item}</p>))}
     
