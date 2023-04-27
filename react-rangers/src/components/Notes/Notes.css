@@ -14,9 +14,13 @@
     background-color: yellow;
     color: yellow
 } */
-
+.notepad {
+    margin-top: 10%;
+    padding-top: 5%;
+    height: 45%;
+}
 textarea {
     resize: none;
     width: 300px;
-    height: 200px;
+    height: 100px;
 }
