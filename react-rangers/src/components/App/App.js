@@ -5,6 +5,7 @@ import Notepad from '../Notes';
 import NavBar from '../NavBar';
 import { SOCdata } from '../../SOCdata';
 import MotivationalApi from '../MotivationalApi';
+import Quiz from '../Quiz';
 
 function App() {
   const [SOCdataState, setSOCdata] = useState(SOCdata);
@@ -44,6 +45,7 @@ function deleteNote(id) {
  
       <Notepad functionality={handleUpdateNotes}/>
       <MotivationalApi />
+      <Quiz props={SOCdataState[activeButton]}/>
     </div>
   );
 }
