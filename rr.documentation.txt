@@ -1,0 +1,7 @@
+Documentation React Ranger (RR) Application for Terminology, Concept and Syntax Assistance:
+The following documentation is identifying component structure and functionality for the 
+React Ranger application in accordance with the curriculum provided by School of Code (SoC) Academy 
+Each component has been designed to provide week to week assistance to SOC academey 
+student for the purpose of familiarising themselves with coding concepts and syntax. 
+The React Ranger application is broken down into five components, each offering a fundamental yet 
+individually intrinsic facet of support.   
