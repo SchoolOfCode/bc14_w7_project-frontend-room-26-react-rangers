@@ -1,0 +1,30 @@
+
+.lesson-card {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+
+.comment-box {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.comment-box button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    text-align: center;
+    color: black;
+}
+
+h1, h2, h3, p, a {
+    color: white;
+    font-family: 'cartilo', sans-serif;
+}

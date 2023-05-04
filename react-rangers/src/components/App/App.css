@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 40% 10% 40%;
+  grid-template-columns: 20% 55% 25%;
+  background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  color: #565656;
+  font-family: 'Carlito';
+  font-size: 1.3rem;
+  
+}
+.Quiz {
+  grid-row: 3/3;
+  grid-column: 3/4;
+}
+
+button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #255CED;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+}
+.lesson-card {
+  overflow: scroll;
+  grid-row: 1/4;
+  grid-column: 2/3;
+  background-color:  #003459;
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  /* border: 1px solid black; */
+  /* box-shadow: 0 0.5rem 0.5rem rgba(202, 198, 198, 0.565); */
+  margin: 2rem;
+  color: #565656;
+  max-height: 100%;
+  
+}
+.lesson-card h1 {
+  
+  color: white;
+  border-radius: 1rem;
+  
+ }
+ .lesson-card p {
+  
+  color: white;
+  border-radius: 1rem;
+  line-height: 1.8;
+ }
+.motivational-quotes {
+  grid-row: 3/4;
+  grid-column: 1/1;
+  display: flex;
+  height: 90%;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:  #000046;
+  padding: 2rem;
+  border-radius: 1rem;
+  /* border: 1px solid black; */
+  /* box-shadow: 0 0.5rem 0.5rem rgba(202, 198, 198, 0.565); */
+  margin: 1rem;
+  color: white
+}
+.motivational-quotes h1 {
+ 
+ color: white;
+ border-radius: 1rem;
+ font-size: 150%;
+}
+.notepad {
+  grid-row: 1/1;
+  grid-column: 3/4;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  background-color: #1cb5e0;
+  border-radius: 1rem;
+  /* box-shadow: 0 0.5rem 0.5rem rgba(202, 198, 198, 0.565); */
+  padding: 3rem;
+  color: white
+}
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-left: 10px;
+  margin-top: 10px;
+  filter: drop-shadow(0 0.1rem 0.1rem rgba(249, 244, 244, 0.671));
+}
+.navBar {
+  margin-top: 11%;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  background-color: #D1E5F9;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(32, 31, 31, 0.2);
+}
+.navBar a {
+  display: block;
+  color: #565656;
+  text-decoration: none;
+  padding: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+.navBar a:hover {
+  background-color: #2A2A2A;
+}
+.navBar:-webkit-scrollbar {
+  display: none;
+}
+.lesson-card:-webkit-scrollbar {
+  display: none;
+}
+
+.Quiz {
+  background-color: #647C90;
+  
+}
+
+.comment-box {
+  
+}
+
+.link, .syntax {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

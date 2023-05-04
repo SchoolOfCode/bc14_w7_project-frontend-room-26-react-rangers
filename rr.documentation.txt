@@ -1,0 +1,44 @@
+Technical Documentation for aid in helping the end user navigate and operate the 
+React Ranger (RR) Application for coding terminology, concept, and syntax assistance:
+
+The following documentation identifies the component structure and functionality for the 
+React Ranger application under the curriculum provided by the School of Code (SoC) Academy. 
+Each component is designed to provide week-to-week assistance to SOC academy students as they are introduced to an increasing lexicon of coding concepts and syntax.
+
+NavBar:
+The NavBar contains a folder for each week. Each weekly folder contains a list of key concepts 
+and definitions based on material covered within the designated week. When the End User(EU) 
+selects a particular week, a list of terms covered that week will appear via a drop-down menu. 
+The EU will then be able to select the desired term for review. This will activate the synchronized functionality of the Lesson Card, Quiz, and Notes components. 
+
+Lesson Card:
+This offers a basic definition of the term or concept selected by the EU in NavBar. 
+In addition to key terms, any relevant code snippets will also populate the Lesson Card. 
+The Lesson Card provides a basic definition of the selected term, any relevant 
+code snippet and a link to SoC approved url resource. 
+
+Notes:
+The Notes function provides a place in the Graphical User Interface (GUI) for 
+the EU to take down brief notes. Once the EU has accessed the 'Add a Note 
+input box and keyed in an idea or question, they will select the 'Update Note.' 
+This action will populate as a line item under the 'Notes' section in the center of the screen. 
+A trash bin icon will appear at the end of each populated note offering the EU to 
+delete the note at any time.
+
+Quiz:
+As part of the synchronized data functionality of the app, when the EU selects a term 
+from one of the weekly folders nested in the NavBar, an interrogative statement related to
+the data that appears in the Lesson Card will populate in the "Test Your Knowledge." 
+section of the app. The answer, obstructed by a blur effect, will  
+appear below the question simultaneously. The EU can clearly see the answer by hovering the
+pointer over it. 
+
+Motivational API:
+In keeping with the SoC Academy's emphasis on maintaining balance and support, especially as 
+the level of technical sophistication of material increases from week to week, the 
+RR application contains a motivational quote component. This component will select a 
+random motivational component from an API that can be operated by the EU, 
+selecting the 'New Quote' button. While this component may not contain innate technical value, 
+the RR app believes it provides a small contribution to the well-rounded 
+compendium of education championed by both the React Rangers and School of Code. 
+
